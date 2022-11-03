@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spaces Venue Booking - Guide</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+        * {
+            color: white;
+        }
+        
+        h2 {
+            color: #00FFC9;
+        }
+        
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #161616;
+        }
+        
+        body {
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        
+        .title {
+            font-size: 2.5em;
+            text-align: center;
+        }
+        
+        .box {
+            min-height: 25vh;
+        }
+        
+        .container {
+            /* display the boxes in the container horizontally */
+            display: flex;
+            /* make the contents wrap if there is not enough space in the container */
+            flex-wrap: wrap;
+            padding: 2.5%;
+        }
+        
+        .container img {
+            max-width: 150px;
+            align-self: center;
+        }
+        
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 2.5%;
+        }
+        
+        .navbar p {
+            margin-left: 2.5%;
+        }
+        
+        .header-logo {
+            width: 3%;
+            height: 3%;
+        }
+        
+        @media screen and (max-width:350px) {
+            .container {
+                text-align: center;
+            }
+            .home,
+            .booking,
+            .profile,
+            .location {
+                width: 100%;
+            }
+            .navbar {
+                justify-content: center;
+                flex-direction: column;
+            }
+            p {
+                font-size: 0.8rem;
+            }
+            .header-logo {
+                width: 15%;
+                height: 24%;
+            }
+        }
+        
+        @media screen and (min-width:351px) and (max-width:500px) {
+            .container {
+                text-align: center;
+            }
+            .home,
+            .booking,
+            .profile,
+            .location {
+                width: 100%;
+            }
+            .navbar {
+                justify-content: center;
+                flex-direction: column;
+            }
+            p {
+                font-size: 0.8rem;
+            }
+            .header-logo {
+                width: 15%;
+                height: 24%;
+            }
+        }
+        
+        @media screen and (min-width:501px) and (max-width:650px) {
+            .container {
+                text-align: center;
+            }
+            .home,
+            .booking,
+            .profile {
+                width: 33%;
+            }
+            .location {
+                width: 100%;
+            }
+            .navbar {
+                justify-content: center;
+                flex-direction: column;
+            }
+            p {
+                font-size: 0.8rem;
+            }
+        }
+        
+        @media screen and (min-width:651px) {
+            .home,
+            .booking,
+            .profile,
+            .location {
+                width: 25%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <img class="header-logo" src="images/logo.png" alt="Spaces Booking App">
+        <p>S P A C E S</p>
+    </div>
+    <div class="container">
+
+        <div class="home">
+            <h2>Choose a venue</h2>
+            <img class="homeImage" src="images/homepage.png" alt="Spaces Home Screen">
+            <p>
+                On logging in you are presented with a list of venues, which you can scroll through vertically!
+            </p>
+            <img class="ctrlsImage" src="images/ctrls.png" alt="Spaces Controls">
+
+            <p>
+                The bottom controls allow you to view your profile and the guide. It can be collapsed by long pressing the home button (circle).
+            </p>
+            <img class="ctrlsImage" src="images/ctrls2.png" alt="Spaces Controls Hidden">
+        </div>
+
+        <div class="booking">
+            <h2>Booking your Space</h2>
+            <img class="homeImage" src="images/booking.png" alt="Spaces Booking Screen">
+            <p>
+                On logging in you are presented with a list of venues, which you can scroll through vertically!
+            </p>
+
+        </div>
+
+        <div class="profile">
+            <h2>Viewing your bookings</h2>
+            <img class="homeImage" src="images/profile.jpg" alt="Spaces Home Screen">
+            <p>
+                When you press the profile button, you are brought to a page containing a listing of all your bookings.
+            </p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
