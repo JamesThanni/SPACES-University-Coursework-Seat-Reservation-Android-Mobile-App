@@ -5,7 +5,7 @@
 
 The Spaces app is an intuitive way of finding available spaces to study or work and cut down the time required to find a place to use in a venue. Start-ups or 
 existing companies have the opportunity to implement basic booking systems into their spaces for organised usage by visitors. It allows for easier 
-implementation than developing their own bespoke systems or update for less efficient systems.
+implementation than developing their own bespoke systems or developing updates for less efficient systems.
 
 ## Getting Started
 
