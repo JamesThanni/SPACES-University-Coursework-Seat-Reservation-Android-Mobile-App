@@ -24,7 +24,7 @@ You will need either:
 
 
 ## Usage
-* Opening up a new cafe in a busy area - you can show customers how many seats are available.
+* Opening up a new cafe in a busy area; you can show customers how many seats are available.
 * Optimising the usage of seats in a libary; you can show visitors how many seats are available.
 
 ## Roadmap
