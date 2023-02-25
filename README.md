@@ -1,4 +1,4 @@
-# SPACES-Seat-Reservation-Android-Mobile-App
+# SPACES - Seat Reservation Android App
 
 
 ## About The Project
